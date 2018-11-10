@@ -1,0 +1,53 @@
+
+body, html {
+  height: 100%;
+    font-family: Quicksand;
+    color: #fff;
+
+}
+.bg-tyron{
+   /*background-color: #0a7b0566 !important;*/
+   background-color: rgba(4, 9, 30, 0.85);
+}
+.head-banner {
+    background:     linear-gradient(90deg, rgba(4, 9, 30, 0.85) 23%, rgba(4, 9, 30, 0.85) 69%), url("../img./002.jpg") no-repeat ;
+    position: cover ;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.carousel-item {
+
+  color: #fff;
+  font-weight: 700px;
+  line-height: 20px;
+}
+
+.testing{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100% !important;
+
+}
+.values-bg {
+
+    background:     linear-gradient(90deg,  rgba(4, 9, 30, 0.85) 23%, rgba(4, 9, 30, 0.85) 69%), url("../img./001.jpg") no-repeat ;
+    position: cover ;
+    background-size: cover;
+}
+.valuecards-text {
+  color: #fff;
+  
+}
+
+
+
+
+
