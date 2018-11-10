@@ -10,7 +10,7 @@ body, html {
    background-color: rgba(4, 9, 30, 0.85);
 }
 .head-banner {
-    background:     linear-gradient(90deg, rgba(4, 9, 30, 0.85) 23%, rgba(4, 9, 30, 0.85) 69%), url("../img./002.jpg") no-repeat ;
+    background:     linear-gradient(90deg, rgba(4, 9, 30, 0.85) 23%, rgba(4, 9, 30, 0.85) 69%), url("../img/002.jpg") no-repeat ;
     position: cover ;
     background-size: cover;
     height: 100%;
@@ -38,13 +38,23 @@ body, html {
 }
 .values-bg {
 
-    background:     linear-gradient(90deg,  rgba(4, 9, 30, 0.85) 23%, rgba(4, 9, 30, 0.85) 69%), url("../img./001.jpg") no-repeat ;
+    background:     linear-gradient(90deg,  rgba(4, 9, 30, 0.85) 23%, rgba(4, 9, 30, 0.85) 69%), url("../img/001.jpg") no-repeat ;
     position: cover ;
     background-size: cover;
 }
 .valuecards-text {
   color: #fff;
   
+}
+
+
+.eventssection {
+
+    background:     linear-gradient(90deg,  rgba(4, 9, 30, 0.85) 23%, rgba(4, 9, 30, 0.85) 69%), url("../img/eventsbanner.jpg") no-repeat ;
+    position: cover ;
+    background-size: cover;
+     height: 100%;
+    width: 100%;
 }
 
 
