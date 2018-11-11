@@ -55,6 +55,10 @@ body, html {
     background-size: cover;
      height: 100%;
     width: 100%;
+    color: #fff;
+}
+.event-counter{
+  background:#0006 !important;
 }
 
 
