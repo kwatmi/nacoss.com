@@ -13,14 +13,12 @@
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
     <!-- CSS Files -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"> 
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
     <!-- font awesome -->
-     <link rel="stylesheet" type="text/css" href="js/fontawesome-free/css/all.css">
-     <!-- owl carousel -->
-     <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="js/fontawesome-free/css/all.css">
   </head>
   <body>
     <!-- Navbar -->
@@ -221,30 +219,56 @@
         <div class="container " >
           <div class="row">
             <div class=" col-md-5 col-sm-12 order-md-2 align-self-center event-counter">
-              <div class="col-md-12 ">
-                <p class="valuecards-text pt-4">With over 3,280,272 Techpreneur Students of Innovations and Creativity.We are building a generation of Solution providers, Technology driven Actipreneurs.
-                </p>
+              <div class="col-md-12 text-center py-5  ">
+                <!-- <p class="valuecards-text pt-4"> -->
+                  <div class="countdown-timer-wrapper">
+                    <div class="timer" id="countdown"></div>
+                  </div>
+                <!-- </p> -->
               </div>
-              <div class="col-md-12">
+              <!-- speakers and seats -->
+              <div class="col-md-12 pb-4">
                 <div class="row">
                   <div class="col-md-6 col-sm-12">
                     <div class="row">
-                      <div class="col-md-6 col-sm-6">
+                      <div class="col-md-4 col-sm-6 align-self-center">
                         <li class="fas fa-facebook">
                         </li>
                       </div>
-                      <div class="col-md-6 col-sm-6">
-                        <h3> SEAT</h3>
+                      <div class="col-md-8 col-sm-6">
+                        <h3 class="my-0"> SEAT</h3>
                         <P>300 People</p>
                       </div>
                     </div>  
                   </div>
                   <div class="col-md-6 col-sm-12">
                     <div class="row">
-                      <div class="col-md-6 col-sm-6"> <li class="fas fa-facebook"></li></div>
-                      <div class="col-md-6 col-sm-6">
-                        <h3> Speaker</h3>
-                        <P>30 Professionals</p>
+                      <div class="col-md-4 col-sm-6 align-self-center"> <li class="fas fa-facebook"></li></div>
+                      <div class="col-md-8 col-sm-6">
+                        <h3 class="my-0"> Speaker</h3>
+                        <P>30 Developers</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- sponsors -->
+              <div class="col-md-12 pb-4">
+                <div class="row">
+                  <div class="col-md-12 text-center pb-4">Sponsors</div>
+                  <div class="col-md-12 sponsors-section">
+                    <div class="row">
+                      <div class="col-md-6 col-sm-12">
+                        <img src="img/mustee.png" class="sponsor-logo img-fluid"> 
+                      </div>
+                      <div class="col-md-6 col-sm-12">
+                        <img src="img/psf.png" class="sponsor-logo img-fluid">
+                      </div>
+                      <div class="col-md-6 col-sm-12">
+                        <img src="img/logo.png" class="sponsor-logo img-fluid"> 
+                      </div>
+                      <div class="col-md-6 col-sm-12">
+                        <img src="img/gdg.png" class="sponsor-logo img-fluid">
                       </div>
                     </div>
                   </div>
@@ -255,8 +279,9 @@
               <div class="col-md-10 mx-auto events-text">
                 <div class="row py-5">
                   <h2>NACOSS National Conference 2018</h2>
-                  <h5>Information Technology: The Framework for National Advancement</h5> 
-                  <p>An annual event that bring students from all areas of Information communication and Technology (ICT) in Nigeria to develop and empower themselves with global Software knowledge as strategic instrument for facilitating and building skilled capacities...</p> 
+                  <h5>Infor Tech: The Framework for National Advancement</h5> 
+                  <p>An annual event that bring students from all areas of Information communication and Technology (ICT) in Nigeria to develop and empower themselves with global Software knowledge as strategic instrument for facilitating and building 
+                    <button class="btn btn-success mt-4">Grab Your Ticket </button></p> 
                 </div>      
               </div>
             </div>
@@ -287,5 +312,21 @@
 
     <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
     <script src="js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
+    <!-- counter -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="js/plugins/countdown-timer.js" ></script>
+    <script>
+        $(document).ready(function () {
+          var myDate = new Date();
+          myDate.setDate(myDate.getDate() + 5);
+          $("#countdown").countdown(myDate, function (event) {
+          $(this).html(
+            event.strftime(
+          '<div class="timer-wrapper"><div class="time">%D</div><span class="text">days</span></div><div class="timer-wrapper"><div class="time">%H</div><span class="text">hrs</span></div><div class="timer-wrapper"><div class="time">%M</div><span class="text">mins</span></div><div class="timer-wrapper"><div class="time">%S</div><span class="text">sec</span></div>'
+          )
+          );
+        });
+        });
+    </script>
   </body>
 </html>
