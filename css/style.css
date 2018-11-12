@@ -5,6 +5,13 @@ body, html {
     color: #fff;
 
 }
+p{
+  font-size: 2.28em;
+}
+.fas, .fa-galactic-senate {
+  font-size: 2em;
+}
+
 .bg-tyron{
    /*background-color: #0a7b0566 !important;*/
    background-color: rgba(4, 9, 30, 0.85);
@@ -76,5 +83,8 @@ body, html {
   background-color: #fff;
 }
 
+.events-icon {
+  font-size: 3em;
+}
 
 
