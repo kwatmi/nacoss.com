@@ -5,8 +5,9 @@ body, html {
     color: #fff;
 
 }
-p{
+p, .news-text {
   font-size: 2.28em;
+  font-family:  Quicksand;
 }
 .fas, .fa-galactic-senate {
   font-size: 2em;
@@ -87,4 +88,8 @@ p{
   font-size: 3em;
 }
 
+.brd a {
+    
+    visibility: hidden !important;
+  }
 
