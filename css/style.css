@@ -93,3 +93,8 @@ p, .news-text {
     visibility: hidden !important;
   }
 
+.footer-tyron {
+  background-color: rgba(4, 9, 30, 0.85);
+  color: #fff;
+
+ }
