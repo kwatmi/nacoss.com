@@ -98,3 +98,13 @@ p, .news-text {
   color: #fff;
 
  }
+
+
+ /*about page */
+ .about-page-header {
+    background:     linear-gradient(90deg,  rgba(4, 9, 30, 0.85) 23%, rgba(4, 9, 30, 0.85) 69%), url("../img/eventsbanner.jpg") no-repeat center ;
+    position: relative;
+    height: 70vh;
+    color: #fff;
+    overflow: hidden;
+ }
