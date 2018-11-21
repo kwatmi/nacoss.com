@@ -16,7 +16,9 @@ p, .news-text {
 .bg-tyron{
    /*background-color: #0a7b0566 !important;*/
    background-color: rgba(4, 9, 30, 0.85);
+   color: #fff;
 }
+
 .head-banner {
     background:     linear-gradient(90deg, rgba(4, 9, 30, 0.85) 23%, rgba(4, 9, 30, 0.85) 69%), url("../img/002.jpg") no-repeat ;
     position: cover ;
@@ -182,9 +184,23 @@ p, .news-text {
     z-index:2;
     transform:translate(-50%,-50%) scale(0);transition:all .3s ease .2s
 }
-.box2 .inner-content:after{width:100%;height:100%;background:rgba(255,79,79,.8);position:absolute;top:50%;left:50%;z-index:-1;transform:translate(-50%,-50%) rotate(45deg)}
-.box2:hover .inner-content{transform:translate(-50%,-50%) scale(1);transition:all .3s ease 0s}
-.box2 .title{font-size:18px;font-weight:700;text-transform:uppercase;margin-bottom:5px}
+.box2 .inner-content:after
+{width:100%;
+  height:100%;
+  background:rgba(4, 9, 30,0.52);
+  position:absolute;
+  top:50%;
+  left:50%;
+  z-index:-1;
+  transform:translate(-50%,-50%) rotate(45deg)
+}
+.box2:hover .inner-content{
+  transform:translate(-50%,-50%) scale(1);transition:all .3s ease 0s
+}
+.box2 .title{
+  font-size:18px;
+  font-weight:700;text-transform:uppercase;margin-bottom:5px
+}
 .box2 .post{display:block;font-size:14px;text-transform:capitalize;margin-bottom:7px}
 .box10 .title,.box11 .title,.box4 .title,.box5 .title,.box6 .box-content,.box7 .title{text-transform:uppercase}
 .box2 .icon{padding:0;margin:0;list-style:none;transform:rotateY(360deg) scale(0);transition:all .3s ease 0s}
