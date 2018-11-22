@@ -111,8 +111,8 @@
 
                         <h5>And Technology driven Actipreneurs. </h5>
                         <p>
-                            <a class="btn btn-success py-3 px-5 py-3 px-5">Login</a>
-                            <a class="btn btn-success py-3 px-5" href="#">Signup</a>
+                            <a class="btn btn-success py-3 px-5 py-3 px-5" href="" data-toggle="modal" data-target="#modalLoginForm">Login</a>
+                            <a class="btn btn-success py-3 px-5" href="" data-toggle="modal" data-target="#modalRegisterForm">Signup</a>
                         </p>
                      
                     </div>
@@ -374,6 +374,147 @@
       </div>
     </section>
     <!-- end of events -->
+    <!-- modal -->
+    <div class="container">
+      <div class="col-md-8">
+        <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Rgister</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body mx-3">
+                <div class="card card-login card-plain">
+                    <form class="form" method="" action="">
+                      <div class="card-header text-center">
+                        <div class="logo-container">
+                          <img src="img/logo1.png" alt="">
+                        </div>
+                      </div>
+                      <div class="card-body">
+                        <div class="input-group no-border input-lg">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="now-ui-icons users_circle-08"></i>
+                            </span>
+                          </div>
+                          <input type="text" class="form-control" placeholder="First Name...">
+                        </div>
+                        <div class="input-group no-border input-lg">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="now-ui-icons text_caps-small"></i>
+                            </span>
+                          </div>
+                          <input type="text" placeholder="Last Name..." class="form-control" />
+                        </div>
+                        <div class="input-group no-border input-lg">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="now-ui-icons ui-1_email-85"></i>
+                            </span>
+                          </div>
+                          <input type="email" placeholder="Email..." class="form-control" />
+                        </div>
+                        <div class="input-group no-border input-lg">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="now-ui-icons users_circle-08"></i>
+                            </span>
+                          </div>
+                          <input type="text" placeholder="Gender..." class="form-control" />
+                        </div>
+                        <div class="input-group no-border input-lg">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="now-ui-icons users-single-02"></i>
+                            </span>
+                          </div>
+                          <input type="text" placeholder="Contact..." class="form-control" />
+                        </div>
+                        <div class="input-group no-border input-lg">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="now-ui-icons education_hat"></i>
+                            </span>
+                          </div>
+                          <input type="text" placeholder="Chapter..." class="form-control" />
+                        </div>
+                        <div class="input-group no-border input-lg">
+                          <div class="input-group-prepend">
+                            <span class="input-group-text">
+                              <i class="now-ui-icons users_circle-08"></i>
+                            </span>
+                          </div>
+                          <input type="password" placeholder="password..." class="form-control" />
+                        </div>
+                      </div>
+                    </form>
+                </div>
+              </div>
+              <div class="modal-footer d-flex justify-content-center">
+                <div class="">
+                  <a href="" class="btn btn-success btn-lg btn-block btn-round btn-about"  data-toggle="modal" data-target="#modalLoginForm">Register</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-md-8">
+        <div class="modal fade" id="modalLoginForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header text-center">
+                <h4 class="modal-title w-100 font-weight-bold">Login </h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body mx-3">
+                <div class="card card-login card-plain">
+                  <form class="form" method="" action="">
+                    <div class="card-header text-center">
+                      <div class="logo-container">
+                        <img src="img/logo1.png" alt="">
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="input-group no-border input-lg">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="now-ui-icons users_circle-08"></i>
+                          </span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="First Name...">
+                      </div>
+                      <div class="input-group no-border input-lg">
+                        <div class="input-group-prepend">
+                          <span class="input-group-text">
+                            <i class="now-ui-icons users_circle-08"></i>
+                          </span>
+                        </div>
+                        <input type="password" placeholder="Password..." class="form-control" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="modal-footer d-flex justify-content-center">
+                <div class="">
+                  <a href="#pablo" class="btn btn-success btn-round btn-lg btn-block btn-about">Login</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- footer -->
     <footer class="footer footer-tyron  p-0 " >
       <div class="container">
@@ -384,16 +525,6 @@
                © 2018 NACOSS National. All Rights Reserved.
               </a>
             </li>
-           <!--  <li>
-              <a href="#">
-                About Us
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Blog
-              </a>
-            </li> -->
           </ul>
         </nav>
         <div class="copyright" id="copyright">
